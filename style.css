@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Space+Grotesk&family=Tilt+Prism&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  height: 40px;
+  background-color: black;
+  color: aliceblue;
+}
+
+header {
+  background-color: black;
+}
+nav {
+  display: flex;
+}
+nav ul li {
+  list-style: none;
+  padding: 12px;
+}
+nav ul {
+  height: 80px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: rgb(149, 0, 255);
+  font-weight: bolder;
+}
+
+.container {
+  min-height: calc(100vh - 80px - 40px);
+  background-color: beige;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 52px;
+  padding: 0 12px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search input {
+  width: 400px;
+  height: 21px;
+  margin: 0 25px;
+  border-radius: 5px;
+  padding: 0 12px;
+}
+
+.btn {
+  margin: 0px -15px;
+  height: 27px;
+  width: 58px;
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}
+.filter img {
+  width: 930px;
+  display: flex;
+  padding: 0px 165px;
+  height: 212px;
+}
+.card img {
+  height: 84px;
+  width: 122px;
+  margin: 14px 24px;
+}
+.card {
+  max-width: 366vh;
+  padding: 0px 32px;
+}
+
+.card-2 {
+  display: flex;
+  justify-content: space-around;
+  padding: 24px;
+}
+
+.text-centre {
+  text-align: center;
+}
+
+.card-item {
+  wwidth: 49vh;
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h2 {
+  adding: 29px 116px;
+}
+
+.cards {
+  max-width: 366vh;
+  padding: 89px 32px;
+}
+.cards img {
+  height: 84px;
+  width: 122px;
+  margin: 14px 24px;
+}
+
+.head {
+  padding: 25px 12px;
+}
+
+.card-item :hover {
+  font-weight: bolder;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  transform: scale(1.2);
+  filter: grayscale(0%);
+}
+
+.card-2 :hover {
+  transform: scale(1.2);
+  filter: grayscale(0%);
+}
+
+.card h1{
+    padding: 0px 12px;
+}
+
+.cards h1{
+    padding: 0px 12px;
+}
+
